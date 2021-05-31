@@ -5,14 +5,14 @@
         "laravel",
         "application",
         "user",
+        "permissions",
         "management",
         "user-management",
-        "spatie",
-        "spatie/laravel-permissions"
+        "spatie"
     ],
     "license": "MIT",
     "type": "library",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "require": {
         "php": ">=7.4.0",
         "illuminate/contracts": "^6.0.0|^7.0.0|^8.0.0",
