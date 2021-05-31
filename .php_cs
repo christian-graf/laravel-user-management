@@ -30,8 +30,9 @@ $fixers = [
 return PhpCsFixer\Config::create()
   ->setFinder(
     PhpCsFixer\Finder::create()
+      ->in(__DIR__ . '/config')
+      ->in(__DIR__ . '/database')
       ->in(__DIR__ . '/src')
-      ->in(__DIR__ . '/tests')
       ->notPath('cache') // Note: The pattern is seen relative from one of the `->in()` directories. And works for files too this way.
   )
   ->setRules($fixers);

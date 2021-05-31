@@ -1,13 +1,14 @@
 {
     "name": "fox/laravel-user-management",
-    "description": "",
+    "description": "Fox's user management for Laravel applications.",
     "keywords": [
         "laravel",
         "application",
         "user",
         "management",
         "user-management",
-        "spatie"
+        "spatie",
+        "spatie/laravel-permissions"
     ],
     "license": "MIT",
     "type": "library",
@@ -20,7 +21,8 @@
         "illuminate/auth": "^6.0.0|^7.0.0|^8.0.0",
         "illuminate/console": "^6.0.0|^7.0.0|^8.0.0",
         "illuminate/config": "^6.0.0|^7.0.0|^8.0.0",
-        "spatie/laravel-permission": "^4.0"
+        "spatie/laravel-permission": "^4.0",
+        "dmx/support-toolset": "^3.3"
     },
     "require-dev": {
         "ext-mbstring": "*",
