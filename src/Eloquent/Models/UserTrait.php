@@ -6,7 +6,8 @@ namespace Fox\UserManagement\Eloquent\Models;
 
 use Illuminate\Support\Carbon;
 use Spatie\Permission\Traits\HasRoles;
-use DMX\Support\Database\Eloquent\Models\HasSnakeCaseAttributes;
+use DMX\Support\Database\Eloquent\Models\Concerns\CanBeFilledByRequest;
+use DMX\Support\Database\Eloquent\Models\Concerns\HasSnakeCaseAttributes;
 
 /**
  * Class User.
@@ -27,6 +28,7 @@ trait UserTrait
 {
     use HasRoles;
     use HasSnakeCaseAttributes;
+    use CanBeFilledByRequest;
 
     /**
      * Automatically encrypts password value with the bcrypt() function.

@@ -7,7 +7,7 @@ namespace Fox\UserManagement\Eloquent\Models;
 use Illuminate\Support\Carbon;
 use Spatie\Permission\Models\Role as SpatieRole;
 use Spatie\Permission\Contracts\Role as RoleContract;
-use DMX\Support\Database\Eloquent\Models\HasSnakeCaseAttributes;
+use DMX\Support\Database\Eloquent\Models\Concerns\HasSnakeCaseAttributes;
 
 /**
  * Class Role.

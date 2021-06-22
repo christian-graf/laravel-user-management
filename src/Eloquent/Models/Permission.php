@@ -6,8 +6,8 @@ namespace Fox\UserManagement\Eloquent\Models;
 
 use Illuminate\Support\Carbon;
 use Spatie\Permission\Models\Permission as SpatiePermission;
-use DMX\Support\Database\Eloquent\Models\HasSnakeCaseAttributes;
 use Spatie\Permission\Contracts\Permission as PermissionContract;
+use DMX\Support\Database\Eloquent\Models\Concerns\HasSnakeCaseAttributes;
 
 /**
  * Class Permission.

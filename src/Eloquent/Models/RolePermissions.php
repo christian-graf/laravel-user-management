@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Fox\UserManagement\Eloquent\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use DMX\Support\Database\Eloquent\Models\HasSnakeCaseAttributes;
+use DMX\Support\Database\Eloquent\Models\Concerns\HasSnakeCaseAttributes;
 
 /**
  * Class RolePermissions.
